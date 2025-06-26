@@ -36,7 +36,7 @@ export default function SubmitOrderForm() {
             toast.success(message);
             clearOrder()
         }
-    }, [state]);
+    }, [state, clearOrder]);
 
     //console.log(state)
 
